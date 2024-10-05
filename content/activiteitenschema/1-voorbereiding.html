@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../../../style/normalize.css"
+    />
+    <link rel="stylesheet" type="text/css" href="../../../style/content.css" />
+    <link rel="stylesheet" type="text/css" href="../../../style/style.css" />
+    <link rel="icon" type="image/png" href="../../img/favicon/favicon.ico" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha384-...your-integrity-hash-here..."
+      crossorigin="anonymous"
+    />
+    <title>1. Voorbereiding en planning</title>
+    <script defer src="../../script/breadCrumbles.js"></script>
+    <script defer src="../../script/pages.js"></script>
+    <script defer src="../../script/activiteiten.js"></script>
+    <script defer src="../../script/menu.js"></script>
+    <!-- <script defer src="../../script/activiteitenListSmall.js"></script> -->
+  </head>
+
+  <body>
+    <header>
+      <section class="header-logo">
+        <div class="container">
+          <a class="logo" href="../../../index.html">
+            <img
+              height="67"
+              width="45"
+              src="https://www.kcbr.nl/themes/custom/indicia_theme/files/logo-rijksoverheid.svg"
+            />
+          </a>
+        </div>
+      </section>
+      <section class="header-search">
+        <div class="container">
+          <form class="header-search-form">
+            <div id="bread-crumble" class="bread-crumble">
+              <a href="../../index.html">Uitvoeringsgericht wetgeven</a>
+              <span>></span>
+              <p>Activiteitenschema</p>
+            </div>
+            <div class="bars">
+              <i id="toggleIcon" class="fa fa-chevron-down active"></i>
+              <span>menu</span>
+            </div>
+            <!-- <div class="form-container">
+              <input name="search" placeholder="Zoeken" />
+              <button type="submit"><img src="../../../img/zoek.svg" /></button>
+            </div> -->
+          </form>
+        </div>
+      </section>
+    </header>
+    <main>
+      <section class="diagram">
+        <div class="container container-small">
+          <!-- <div class="header-visiual"> -->
+          <div class="diagram-container">
+            <div class="diagram-item activiteitenschema">
+              <a class="diagram-link" href="./activiteitenschema.html">
+                <span class="diagram-span"
+                  ><img
+                    src="../../../img/activiteitenschema.svg"
+                    alt="Activiteitenschema"
+                /></span>
+                <span class="diagram-text">Activiteitenschema</span>
+                <span class="diagram-arrow"
+                  ><img src="../../../img/terug.svg"
+                /></span>
+              </a>
+            </div>
+
+            <div class="diagram-item analyseschema">
+              <a class="diagram-link" href="#">
+                <span class="diagram-span"
+                  ><img
+                    src="../../../img/analyseschema.svg"
+                    alt="Analyseschema"
+                /></span>
+                <span class="diagram-text">Analyseschema</span>
+                <span class="diagram-arrow"
+                  ><img src="../../../img/terug.svg"
+                /></span>
+              </a>
+            </div>
+
+            <div class="diagram-item voorbeelden">
+              <a class="diagram-link" href="#">
+                <span class="diagram-span"
+                  ><img src="../../../img/voorbeelden.svg" alt="Voorbeelden"
+                /></span>
+                <span class="diagram-text">Voorbeelden</span>
+                <span class="diagram-arrow"
+                  ><img src="../../../img/terug.svg"
+                /></span>
+              </a>
+            </div>
+
+            <div class="diagram-item deelnemers">
+              <a class="diagram-link" href="#">
+                <span class="diagram-span"
+                  ><img src="../../../img/deelnemers.svg" alt="Deelnemers"
+                /></span>
+                <span class="diagram-text">Deelnemers</span>
+                <span class="diagram-arrow"
+                  ><img src="../../../img/terug.svg"
+                /></span>
+              </a>
+            </div>
+            <div class="diagram-item tips-tricks">
+              <a class="diagram-link" href="#">
+                <span class="diagram-span"
+                  ><img src="../../../img/tipsentricks.svg" alt="Tips & Tricks"
+                /></span>
+                <span class="diagram-text">Tips & Tricks</span>
+                <span class="diagram-arrow"
+                  ><img src="../../../img/terug.svg"
+                /></span>
+              </a>
+            </div>
+            <div class="diagram-item literatuur">
+              <a class="diagram-link" href="#">
+                <span class="diagram-span"
+                  ><img src="../../../img/literatuur.svg" alt="Literatuur"
+                /></span>
+                <span class="diagram-text">Literatuur</span>
+                <span class="diagram-arrow"
+                  ><img src="../../../img/terug.svg"
+                /></span>
+              </a>
+            </div>
+            <div class="diagram-item contact">
+              <a class="diagram-link" href="#">
+                <span class="diagram-span"
+                  ><img src="../../../img/contact.svg" alt="Contact"
+                /></span>
+                <span class="diagram-text">Contact</span>
+                <span class="diagram-arrow"
+                  ><img src="../../../img/terug.svg"
+                /></span>
+              </a>
+            </div>
+            <div class="diagram-center">
+              <img src="../../../img/background/center.png" alt="Center" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="activiteiten-section">
+        <div class="container">
+          <!-- Section  -->
+          <div class="wrapper">
+            <ul class="activiteiten-list">
+              <li data-filter="#team-samen" data-page="1-voorbereiding.html">
+                <h2 class="activiteiten-title">1. Voorbereding en planning</h2>
+                <p class="activiteiten-item">
+                  <span>a. Stel een team samen</span
+                  ><img class="arrow" src="../../img/arrow.svg" />
+                </p>
+                <div id="team-samen" class="activiteiten-list-small">
+                  <div data-filter="#team-samen">
+                    <h2 class="activiteiten-title">a. Stel een team samen</h2>
+                    <p class="activiteiten-text">
+                      Bij uitvoeringsgericht wetgeven is direct contact met de
+                      verschillende betrokken onderdelen bij beleid, wetgeving
+                      en uitvoering heel belangrijk.
+                    </p>
+                    <p class="activiteiten-text">
+                      Vertegenwoordigers van deze onderdelen worden opgenomen in
+                      een
+                      <a href="#">multidisciplinar team</a> voor het uitwerken
+                      van de wettelijke regeling. Het kan zijn dat in de loop
+                      van het project blijkt dat nog andere expertise noding is.
+                      Dan kan het team worden aangevuld; de samenstelling is
+                      geen vast gegeven.
+                    </p>
+                    <p class="activiteiten-text">
+                      Hulpvragen bij het bepalen van de deelnemers aan het team:
+                    </p>
+                    <ol>
+                      <li>
+                        <p class="activiteiten-text">
+                          Welke organisatie wordt belast met de uitvoering van
+                          de regeling?
+                        </p>
+                      </li>
+                      <li>
+                        <p class="activiteiten-text">
+                          Bij welk onderdeel van de uitvoeringsorganisatie van
+                          de zit de kennis over de huidige toepassing van de
+                          wetgeving?
+                        </p>
+                      </li>
+                      <li>
+                        <p class="activiteiten-text">
+                          Bij welk onderdeel van de uitvoeringsorganisatie van
+                          de zit de kennis over de geautomatiseerde
+                          ondersteuning van de uitvoering van de wetgeving?
+                        </p>
+                      </li>
+                      <li>
+                        <p class="activiteiten-text">
+                          Welke typen functies horen bij deze deskundigheden?
+                        </p>
+                      </li>
+                    </ol>
+
+                    <p class="activiteiten-text">
+                      Kijk bij Deelnemers voor een overzicht met beschrijving
+                      van verschillense disciplines en bijbehorende functies.
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li
+                data-filter="#globale-planning"
+                data-page="1-voorbereiding.html"
+              >
+                <p class="activiteiten-item">
+                  <span>b. Maak een globale planning</span
+                  ><img class="arrow" src="../../img/arrow.svg" />
+                </p>
+                <div id="globale-planning" class="activiteiten-list-small">
+                  <div data-filter="#globale-planning">
+                    <h2 class="activiteiten-title">
+                      b. Maak een globale planning
+                    </h2>
+                    <p class="activiteiten-text">
+                      Het is goed om direct bij de start van het traject een
+                      inschatting te maken van de tijd die noding is voor het
+                      doorlopen van de activiteiten uit het schema, ook al zal
+                      dat nog een globale planning zijn. Dit zou zelfs al kunnen
+                      als uit stap 3 van het Beleidskompas blijkt dat wetgeving
+                      een kansrijk instrument is en de wetgeving een duidelijke
+                      uitvoeringscomponent gaat krijgen.
+                    </p>
+                    <p class="activiteiten-text">
+                      De globale planning is ook een bouwsteen voor de planning
+                      van het totale wetgevingstraject in KIWI. Het is van
+                      belang dat voor de fase van (inter)departementale
+                      Voorbereiding voldoence tijd beschikbaar wordt gesteld om
+                      de wetgeving daadwerkelijk uitvoeringsgericht te
+                      ontwikkelen. Hiervoor moet bij het management van de elgen
+                      directie en bij de ambtelijk en politieke leiding aandacht
+                      en commitment worden gevraagd.
+                    </p>
+                    <p class="activiteiten-text">
+                      Bij het bepalen van het werkgebied en verzamelen van de
+                      bronnen (activiteit 2) zal duidelijker worden wat de scope
+                      en omvang van de regeling wordt en welke analyses nodig
+                      zijn. Omgekeerd kan een globale inschatting van de totale
+                      beschikbare tijd voor de activiteiten van invloed zijn op
+                      de vraag hoe het werkgebied wordt afgebakend.
+                    </p>
+                    <p class="activiteiten-text">
+                      Voor het maken van een globale planning kunnen de volgende
+                      hulpvragen worden gebruikt:
+                    </p>
+                    <ul class="maak-list">
+                      <li class="maak-item">
+                        Hoeveel tijd is in totaal beschikbaar om de activiteiten
+                        uit te voeren& Neem hierbij als uitgangspunt de datum
+                        waarop de conceptregeling klaar moet zijn voor
+                        consultatie en uitvoeringstoets.
+                      </li>
+                      <li class="maak-item">
+                        Hoeveel tijd wordt uitgetrokken per activiteit? De
+                        beschikbare termijn kan evenredig verdeeld worden over
+                        de activiteiten, maar in het algemeen zullen activiteit
+                        2 en activiteit 3 (Werkgebied bepalen / bronnen
+                        verzamelen en bronnen structureren en interpreteren) het
+                        meest tijdrovend zijn. Ze vergen zoekwerk en soms
+                        intensieve besprekingen.
+                      </li>
+                      <li class="maak-item">
+                        Hoe worden de werkzaamheden verdeeld over de leden van
+                        het team? Het is van belang om hieraan aandacht te
+                        besteden om overbelasting van mensen te voorkomen, en om
+                        rekening te houden met werkzaamheden aan andere
+                        dossiers.
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li
+                data-filter="#plan-werksessies"
+                data-page="1-voorbereiding.html"
+              >
+                <p class="activiteiten-item">
+                  <span>c. Plan werksessies in</span
+                  ><img class="arrow" src="../../img/arrow.svg" />
+                </p>
+                <div id="plan-werksessies" class="activiteiten-list-small">
+                  <div data-filter="plan-werksessies">
+                    <h2 class="activiteiten-title">c. Plan werksessies in</h2>
+                    <p class="activiteiten-text">
+                      Het is goed als het team op een zo vroeg mogelijk moment
+                      met elkaar kennismaakt in een startsessie. Deze
+                      startsessie kan ingepland worden zodra het team is
+                      samengesteld. De startsessie leent zich er goed voor om de
+                      taken onderling te verdelen en de globale planning met
+                      elkaar door te nemen. Op basis daarvan kun je in het team
+                      afspreken wanneer en met welk ritme de vervolgsessies
+                      zullen plaatsvinden.
+                    </p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+
+            <div class="activiteiten-aside">
+              <p>Voorbereiding en planning</p>
+              <ul>
+                <li>
+                  <a href="#"> a. Stel een team samen </a>
+                </li>
+                <li>b. Maak een globale planning</li>
+                <li>c. Plan werksessies in</li>
+              </ul>
+              <p>Werkgebied bepalen/ bronnen structureren</p>
+              <ul>
+                <li>a. ...</li>
+                <li>b. ...</li>
+                <li>c. ...</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="container">
+        <h3>Snel naar</h3>
+        <ul>
+          <li>
+            <a href="#"
+              ><img src="../../../img/terug.svg" />Activiteitenschema</a
+            >
+          </li>
+          <li>
+            <a href="#"><img src="../../../img/terug.svg" />Analyseschema</a>
+          </li>
+          <li>
+            <a href="#"><img src="../../../img/terug.svg" />Voorbeelden</a>
+          </li>
+          <li>
+            <a href="#"><img src="../../../img/terug.svg" />Deelnemers</a>
+          </li>
+          <li>
+            <a href="#"
+              ><img src="../../../img/terug.svg" />Tips &#38; Tricks</a
+            >
+          </li>
+          <li>
+            <a href="#"><img src="../../../img/terug.svg" />Literatuur</a>
+          </li>
+          <li>
+            <a href="#"><img src="../../../img/terug.svg" />Contact</a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>

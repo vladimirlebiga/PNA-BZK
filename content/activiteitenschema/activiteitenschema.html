@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="../../style/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="../../style/content.css" />
+    <link rel="stylesheet" type="text/css" href="../../style/style.css" />
+    <link rel="icon" type="image/png" href="../../img/favicon/favicon.ico" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha384-...your-integrity-hash-here..."
+      crossorigin="anonymous"
+    />
+    <title>Activiteitenschema</title>
+    <script defer src="../../script/breadCrumbles.js"></script>
+    <script defer src="../../script/activiteiten.js"></script>
+    <script defer src="../../script/activiteitenListSmall.js"></script>
+    <script defer src="../../script/menu.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <section class="header-logo">
+        <div class="container">
+          <a class="logo" href="../../index.html">
+            <img
+              height="67"
+              width="45"
+              src="https://www.kcbr.nl/themes/custom/indicia_theme/files/logo-rijksoverheid.svg"
+            />
+          </a>
+        </div>
+      </section>
+      <section class="header-search">
+        <div class="container">
+          <form class="header-search-form">
+            <div id="bread-crumble" class="bread-crumble">
+              <a href="../../index.html">Uitvoeringsgericht wetgeven</a>
+              <span>></span>
+              <p>Activiteitenschema</p>
+            </div>
+            <div class="bars">
+              <i id="toggleIcon" class="fa fa-chevron-down active"></i>
+              <span>menu</span>
+            </div>
+            <!-- <div class="form-container">
+              <input name="search" placeholder="Zoeken" />
+              <button type="submit"><img src="../../img/zoek.svg" /></button>
+            </div> -->
+          </form>
+        </div>
+      </section>
+    </header>
+    <main>
+      <section class="diagram">
+        <div class="container container-small">
+          <div class="diagram-container">
+            <div class="diagram-item activiteitenschema">
+              <a class="diagram-link" href="./activiteitenschema.html">
+                <span class="diagram-span"
+                  ><img
+                    src="../../img/activiteitenschema.svg"
+                    alt="Activiteitenschema"
+                /></span>
+                <span class="diagram-text">Activiteitenschema</span>
+                <span class="diagram-arrow"
+                  ><img src="../../img/terug.svg"
+                /></span>
+              </a>
+            </div>
+            <div class="diagram-item analyseschema">
+              <a class="diagram-link" href="#">
+                <span class="diagram-span"
+                  ><img src="../../img/analyseschema.svg" alt="Analyseschema"
+                /></span>
+                <span class="diagram-text">Analyseschema</span>
+                <span class="diagram-arrow"
+                  ><img src="../../img/terug.svg"
+                /></span>
+              </a>
+            </div>
+            <div class="diagram-item voorbeelden">
+              <a class="diagram-link" href="../voorbeelden/voorbeelden.html">
+                <span class="diagram-span"
+                  ><img src="../../img/voorbeelden.svg" alt="Voorbeelden"
+                /></span>
+                <span class="diagram-text">Voorbeelden</span>
+                <span class="diagram-arrow"
+                  ><img src="../../img/terug.svg"
+                /></span>
+              </a>
+            </div>
+            <div class="diagram-item deelnemers">
+              <a class="diagram-link" href="#">
+                <span class="diagram-span"
+                  ><img src="../../img/deelnemers.svg" alt="Deelnemers"
+                /></span>
+                <span class="diagram-text">Deelnemers</span>
+                <span class="diagram-arrow"
+                  ><img src="../../img/terug.svg"
+                /></span>
+              </a>
+            </div>
+            <div class="diagram-item tips-tricks">
+              <a class="diagram-link" href="#">
+                <span class="diagram-span"
+                  ><img src="../../img/tipsentricks.svg" alt="Tips & Tricks"
+                /></span>
+                <span class="diagram-text">Tips & Tricks</span>
+                <span class="diagram-arrow"
+                  ><img src="../../img/terug.svg"
+                /></span>
+              </a>
+            </div>
+            <div class="diagram-item literatuur">
+              <a class="diagram-link" href="#">
+                <span class="diagram-span"
+                  ><img src="../../img/literatuur.svg" alt="Literatuur"
+                /></span>
+                <span class="diagram-text">Literatuur</span>
+                <span class="diagram-arrow"
+                  ><img src="../../img/terug.svg"
+                /></span>
+              </a>
+            </div>
+            <div class="diagram-item contact">
+              <a class="diagram-link" href="#">
+                <span class="diagram-span"
+                  ><img src="../../img/contact.svg" alt="Contact"
+                /></span>
+                <span class="diagram-text">Contact</span>
+                <span class="diagram-arrow"
+                  ><img src="../../img/terug.svg"
+                /></span>
+              </a>
+            </div>
+            <div class="diagram-center">
+              <img src="../../img/background/center.png" alt="Center" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="activiteiten-section">
+        <div class="container">
+          <div id="activiteiten">
+            <div class="activiteiten-wrapper">
+              <div>
+                <h2 class="activiteiten-title">Activiteitenschema</h2>
+                <ul class="activiteiten-list">
+                  <li
+                    data-filter="#voorbereiding"
+                    data-page="1-voorbereiding.html"
+                  >
+                    <p class="activiteiten-item">
+                      <span>1. Voorbereding en planning</span
+                      ><img class="arrow" src="../../img/arrow.svg" />
+                    </p>
+                    <div id="voorbereiding" class="activiteiten-list-small">
+                      <div data-filter="#team-samen">
+                        <p class="activiteiten-item-small">
+                          <span>a. Stel een team samen</span
+                          ><img src="../../img/arrow.svg" />
+                        </p>
+                      </div>
+                      <div data-filter="#globale-planning">
+                        <p class="activiteiten-item-small">
+                          <span>b. Maak een globale planning</span
+                          ><img src="../../img/arrow.svg" />
+                        </p>
+                      </div>
+                      <div data-filter="#plan-werksessies">
+                        <p class="activiteiten-item-small">
+                          <span>c. Plan werksessies in</span
+                          ><img src="../../img/arrow.svg" />
+                        </p>
+                      </div>
+                    </div>
+                  </li>
+                  <li data-filter="#werkgebied" data-page="2-werkgebied.html">
+                    <p class="activiteiten-item">
+                      <span>2. Werkgebied bepalen / Bronnen verzamelen</span
+                      ><img class="arrow" src="../../img/arrow.svg" />
+                    </p>
+                    <div id="werkgebied" class="activiteiten-list-small">
+                      <div data-filter="#taak-bepalen">
+                        <p class="activiteiten-item-small">
+                          <span>a. Taak bepalen</span
+                          ><img src="../../img/arrow.svg" />
+                        </p>
+                      </div>
+                      <div data-filter="#verzamelen-wetgeving">
+                        <p class="activiteiten-item-small">
+                          <span>b. Verzamelen van relevante wetgeving</span
+                          ><img src="../../img/arrow.svg" />
+                        </p>
+                      </div>
+                      <div data-filter="#overzicht-maken">
+                        <p class="activiteiten-item-small">
+                          <span>c. Een overzicht maken</span
+                          ><img src="../../img/arrow.svg" />
+                        </p>
+                      </div>
+                      <div data-filter="#conceptregeling-maken">
+                        <p class="activiteiten-item-small">
+                          <span>d. Een conceptregeling maken</span
+                          ><img src="../../img/arrow.svg" />
+                        </p>
+                      </div>
+                      <div data-filter="#planning-aanpassen">
+                        <p class="activiteiten-item-small">
+                          <span>e. Planning aanpassen</span
+                          ><img src="../../img/arrow.svg" />
+                        </p>
+                      </div>
+                    </div>
+                  </li>
+                  <li data-filter="#bronnen" data-page="3-bronnen.html">
+                    <p class="activiteiten-item">
+                      <span>3. Bronnen structureren en interpreteren</span
+                      ><img class="arrow" src="../../img/arrow.svg" />
+                    </p>
+                    <div id="bronnen" class="activiteiten-list-small">
+                      <div data-filter="#structuur-maken">
+                        <p class="activiteiten-item-small">
+                          <span>a. Juridische structuur zichtbaar maken</span
+                          ><img class="arrow" src="../../img/arrow.svg" />
+                        </p>
+                      </div>
+                      <div data-filter="#expliciet-maken">
+                        <p class="activiteiten-item-small">
+                          <span
+                            >b. De betekenis van de bepalingen expliciet
+                            maken</span
+                          ><img src="../../img/arrow.svg" />
+                        </p>
+                      </div>
+                    </div>
+                  </li>
+                  <li data-filter="#valideren" data-page="4-valideren.html">
+                    <p class="activiteiten-item">
+                      <span>4. Interpretaties valideren</span
+                      ><img class="arrow" src="../../img/arrow.svg" />
+                    </p>
+                    <div id="valideren" class="activiteiten-list-small">
+                      <div data-filter="#valideren-van">
+                        <p class="activiteiten-item-small">
+                          <span>a. Valideren van de analyseresultaten</span
+                          ><img src="../../img/arrow.svg" />
+                        </p>
+                      </div>
+                      <div data-filter="#verschillen-benoemen">
+                        <p class="activiteiten-item-small">
+                          <span
+                            >b. Verschillen in interpretaties benoemen en
+                            bespreken in het team</span
+                          ><img src="../../img/arrow.svg" />
+                        </p>
+                      </div>
+                      <div data-filter="#uitvoeringsbeleid-signaleren">
+                        <p class="activiteiten-item-small">
+                          <span
+                            >c. Ontbrekend of verborgen uitvoeringsbeleid
+                            signaleren</span
+                          ><img src="../../img/arrow.svg" />
+                        </p>
+                      </div>
+                    </div>
+                  </li>
+                  <li data-filter="#modelleren" data-page="5-modelleren.html">
+                    <p class="activiteiten-item">
+                      <span>5. Kennis modelleren</span
+                      ><img class="arrow" src="../../img/arrow.svg" />
+                    </p>
+                    <div id="modelleren" class="activiteiten-list-small">
+                      <div data-filter="#kennis-model">
+                        <p class="activiteiten-item-small">
+                          <span>a. Een kennismodel opstellen</span
+                          ><img src="../../img/arrow.svg" />
+                        </p>
+                      </div>
+                      <div data-filter="#team-bespreken">
+                        <p class="activiteiten-item-small">
+                          <span>b. Het model in het team bespreken</span
+                          ><img src="../../img/arrow.svg" />
+                        </p>
+                      </div>
+                    </div>
+                  </li>
+                  <li data-filter="#simuleren" data-page="6-simuleren.html">
+                    <p class="activiteiten-item">
+                      <span>6. Taak simuleren</span
+                      ><img class="arrow" src="../../img/arrow.svg" />
+                    </p>
+                    <div id="simuleren" class="activiteiten-list-small">
+                      <div data-filter="#taak-simuleren">
+                        <p class="activiteiten-item-small">
+                          <span
+                            >a. Een taak simuleren in de
+                            uitvoeringsorganisatie</span
+                          ><img src="../../img/arrow.svg" />
+                        </p>
+                      </div>
+                    </div>
+                  </li>
+                  <li data-filter="#bijstellen" data-page="7-bijstellen.html">
+                    <p class="activiteiten-item">
+                      <span>7. Evalueren en bijstellen</span
+                      ><img class="arrow" src="../../img/arrow.svg" />
+                    </p>
+                    <div id="bijstellen" class="activiteiten-list-small">
+                      <div data-filter="#simulatie-bespreken">
+                        <p class="activiteiten-item-small">
+                          <span>a. Resultaten van de simulatie bespreken</span
+                          ><img src="../../img/arrow.svg" />
+                        </p>
+                      </div>
+                      <div data-filter="#aanpassingen-doen">
+                        <p class="activiteiten-item-small">
+                          <span>b. Aanpassingen doen waar het nodig is</span
+                          ><img src="../../img/arrow.svg" />
+                        </p>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div class="activiteiten-aside">
+                <h4>Activiteitenschema</h4>
+                <p>
+                  Uitvoeringsgericht wetgeven bestaat uit een aantal
+                  activiteiten die in een multidisciplinair team worden
+                  uitgevoerd. Daarvoor is een activiteitenschema ontwikkeld dat
+                  kan worden toegepast in stap 5 van het Beleidskompas, indien
+                  de voorkeursoptie (ook) leidt tot het maken of wijzigen van
+                  een wettelijke regeling.
+                </p>
+                <p>
+                  Door het werken aan de hand van dit activiteitenschema komen
+                  bij het ontwerp van de wetgeving de keuzes en randvoorwaarden
+                  voor een goede en werkbare inrichting van de digitale
+                  uitvoeringspraktijk scherper in beeld. Dit zorgt ervoor dat
+                  verderop in het wetgevingsproces, bij het maken van een
+                  uitvoeringstoets, of zelfs tijdens de implementatie van de
+                  wetgeving, minder verrassingen naar voren komendie de tijdige
+                  invoering en goede uitvoering van de wetgeving in de weg
+                  zitten. De uitvoeringsanalyse wordt hiermee een meer
+                  geintegreerd onderdeel van het ontwerpproces van wetgeving.
+                </p>
+                <p>
+                  Het is niet altijd nodig om het hele activiteitenschema te
+                  doorlopen. Op basis van factoren als het type regeling, de
+                  complexiteit ervan of de beschikbare tijd, kunnen onderdelen
+                  eventueel worden overgesiagen of minder intensief doorlopen.
+                  Daamaast geldt dat in de eerste stappen het voortouw ligt bij
+                  de beleidsmaker en wetgevingsjurist en verderopin het traject
+                  verschuift naar de uitvoeringsmedewerkers.
+                </p>
+                <p>
+                  Daardoor wordt de tijdsbesteding gelijkelijk verdeeld. Verder
+                  geidt dat een tijdsinvestering vroeg in het proced loont als
+                  daarmee vertraging bij de uiteindelijk invoering kan worden
+                  voorkomen.
+                </p>
+                <p>
+                  Door te klikken op een onderdeel in de bovenste rij van het
+                  activiteitenschema spring je naar de toelichting en eventuele
+                  voorbeelden.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="container">
+        <h3>Snel naar</h3>
+        <ul>
+          <li>
+            <a href="#"><img src="../../img/terug.svg" />Activiteitenschema</a>
+          </li>
+          <li>
+            <a href="#"><img src="../../img/terug.svg" />Analyseschema</a>
+          </li>
+          <li>
+            <a href="#"><img src="../../img/terug.svg" />Voorbeelden</a>
+          </li>
+          <li>
+            <a href="#"><img src="../../img/terug.svg" />Deelnemers</a>
+          </li>
+          <li>
+            <a href="#"><img src="../../img/terug.svg" />Tips &#38; Tricks</a>
+          </li>
+          <li>
+            <a href="#"><img src="../../img/terug.svg" />Literatuur</a>
+          </li>
+          <li>
+            <a href="#"><img src="../../img/terug.svg" />Contact</a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../../../style/normalize.css"
+    />
+    <link rel="stylesheet" type="text/css" href="../../../style/content.css" />
+    <link rel="stylesheet" type="text/css" href="../../../style/style.css" />
+    <link rel="icon" type="image/png" href="../../img/favicon/favicon.ico" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha384-...your-integrity-hash-here..."
+      crossorigin="anonymous"
+    />
+    <title>2. Werkgebied bepalen / Bronnen verzamelen</title>
+    <script defer src="../../script/breadCrumbles.js"></script>
+    <script defer src="../../script/pages.js"></script>
+    <script defer src="../../script/activiteiten.js"></script>
+    <script defer src="../../script/menu.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <section class="header-logo">
+        <div class="container">
+          <a class="logo" href="../../../index.html">
+            <img
+              height="67"
+              width="45"
+              src="https://www.kcbr.nl/themes/custom/indicia_theme/files/logo-rijksoverheid.svg"
+            />
+          </a>
+        </div>
+      </section>
+      <section class="header-search">
+        <div class="container">
+          <form class="header-search-form">
+            <div id="bread-crumble" class="bread-crumble">
+              <a href="../../index.html">Uitvoeringsgericht wetgeven</a>
+              <span>></span>
+              <p>Activiteitenschema</p>
+            </div>
+            <div class="bars">
+              <i id="toggleIcon" class="fa fa-chevron-down active"></i>
+              <span>menu</span>
+            </div>
+            <!-- <div class="form-container">
+              <input name="search" placeholder="Zoeken" />
+              <button type="submit"><img src="../../../img/zoek.svg" /></button>
+            </div> -->
+          </form>
+        </div>
+      </section>
+    </header>
+    <main>
+      <section class="diagram">
+        <div class="container">
+          <!-- <div class="header-visiual"> -->
+          <div class="diagram-container">
+            <div class="diagram-item activiteitenschema">
+              <a class="diagram-link" href="./activiteitenschema.html">
+                <span class="diagram-span"
+                  ><img
+                    src="../../../img/activiteitenschema.svg"
+                    alt="Activiteitenschema"
+                /></span>
+                <span class="diagram-text">Activiteitenschema</span>
+                <span class="diagram-arrow"
+                  ><img src="../../../img/terug.svg"
+                /></span>
+              </a>
+            </div>
+
+            <div class="diagram-item analyseschema">
+              <a class="diagram-link" href="#">
+                <span class="diagram-span"
+                  ><img
+                    src="../../../img/analyseschema.svg"
+                    alt="Analyseschema"
+                /></span>
+                <span class="diagram-text">Analyseschema</span>
+                <span class="diagram-arrow"
+                  ><img src="../../../img/terug.svg"
+                /></span>
+              </a>
+            </div>
+
+            <div class="diagram-item voorbeelden">
+              <a class="diagram-link" href="#">
+                <span class="diagram-span"
+                  ><img src="../../../img/voorbeelden.svg" alt="Voorbeelden"
+                /></span>
+                <span class="diagram-text">Voorbeelden</span>
+                <span class="diagram-arrow"
+                  ><img src="../../../img/terug.svg"
+                /></span>
+              </a>
+            </div>
+
+            <div class="diagram-item deelnemers">
+              <a class="diagram-link" href="#">
+                <span class="diagram-span"
+                  ><img src="../../../img/deelnemers.svg" alt="Deelnemers"
+                /></span>
+                <span class="diagram-text">Deelnemers</span>
+                <span class="diagram-arrow"
+                  ><img src="../../../img/terug.svg"
+                /></span>
+              </a>
+            </div>
+            <div class="diagram-item tips-tricks">
+              <a class="diagram-link" href="#">
+                <span class="diagram-span"
+                  ><img src="../../../img/tipsentricks.svg" alt="Tips & Tricks"
+                /></span>
+                <span class="diagram-text">Tips & Tricks</span>
+                <span class="diagram-arrow"
+                  ><img src="../../../img/terug.svg"
+                /></span>
+              </a>
+            </div>
+            <div class="diagram-item literatuur">
+              <a class="diagram-link" href="#">
+                <span class="diagram-span"
+                  ><img src="../../../img/literatuur.svg" alt="Literatuur"
+                /></span>
+                <span class="diagram-text">Literatuur</span>
+                <span class="diagram-arrow"
+                  ><img src="../../../img/terug.svg"
+                /></span>
+              </a>
+            </div>
+            <div class="diagram-item contact">
+              <a class="diagram-link" href="#">
+                <span class="diagram-span"
+                  ><img src="../../../img/contact.svg" alt="Contact"
+                /></span>
+                <span class="diagram-text">Contact</span>
+                <span class="diagram-arrow"
+                  ><img src="../../../img/terug.svg"
+                /></span>
+              </a>
+            </div>
+            <div class="diagram-center">
+              <img src="../../../img/background/center.png" alt="Center" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="activiteiten-section">
+        <div class="container">
+          <!-- Section  -->
+          <div class="wrapper">
+            <ul class="activiteiten-list">
+              <li data-filter="#taak-bepalen" data-page="2-werkgebied.html">
+                <h2 class="activiteiten-title">
+                  2. Werkgebied bepalen / Bronnen verzamelen
+                </h2>
+                <p class="activiteiten-item">
+                  <span>a. Taak bepalen</span
+                  ><img class="arrow" src="../../img/arrow.svg" />
+                </p>
+                <div id="taak-bepalen" class="activiteiten-list-small">
+                  <div data-filter="#taak-bepalen">
+                    <h2 class="activiteiten-title">
+                      a. Bepalen welke (nieuwe) wettelijke taak moet worden
+                      uitgevoerd
+                    </h2>
+                    <p class="activiteiten-text">
+                      Om te bepalen welke wetgeving moet worden aangepast of in
+                      welke 'omgeving' een nieuwe wettelijke regeling gaat
+                      'landen', is het van belang inzicht te hebben in de taak
+                      of taken die uit het beleidsvoornemen voortvloeien. Als de
+                      conclusie van
+                      <a href="#">stap 3 van het Beleidskompas</a> is dat
+                      wetgeving een kansrijk instrument is om het probleem op te
+                      lossen, dan kan al een inschatting worden gemaakt van de
+                      uitvoeringstaak of - taken die aan de orde zullen zijn.
+                      Dit vormt de basis voor de volgende subactiviteit, het
+                      verzamelen van bronnen. Behulpzaam is om tegelijkertijd
+                      met het bepalen van de wettelijke taak al scenario's te
+                      maken <a href="#">(activiteit 4)</a>. Dat zorgt voor meer
+                      scherpte en focus.
+                    </p>
+                    <p class="activiteiten-text">
+                      Als de uitkomst van stap 3 van het Beleidskompas is dat
+                      voor een tegemoetkoming in gestegen kosten van
+                      levensonderhoud een nieuwe toeslag moet worden ingevoerd,
+                      dan zullen uitvoeringstaken in elk geval zijn: gegevens
+                      inwinnen (bij burgers of andere overheidsorganisaties
+                      (basisregistraties)), ontvangen en beoordelen van
+                      aanvragen, toekennen van de toeslag (berekenen en
+                      besluiten), bekendmaken, uitbetalen, terugvorderen (bij
+                      onterechte uitbetaling).:
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li
+                data-filter="#verzamelen-wetgeving"
+                data-page="2-werkgebied.html"
+              >
+                <p class="activiteiten-item">
+                  <span>b. Verzamelen van relevante wetgeving</span
+                  ><img class="arrow" src="../../img/arrow.svg" />
+                </p>
+                <div id="verzamelen-wetgeving" class="activiteiten-list-small">
+                  <div data-filter="#verzamelen-wetgeving">
+                    <h2 class="activiteiten-title">
+                      b. Verzamelen van relevante wetgeving die de huidige
+                      situatie betreft
+                    </h2>
+                    <p class="activiteiten-text">
+                      Op basis van de beschreven taken worden de wettelijke
+                      regelingen geïnventariseerd die daarop betrekking hebben.
+                      Dit geeft een beeld van de regelingen die gewijzigd moeten
+                      worden om het beleidsvoornemen te realiseren, of van
+                      nieuwe wetgeving die daarvoor nodig is. Op deze manier
+                      wordt het bestaande relevante 'wetgevingslandschap' in
+                      kaart gebracht. In dit stadium is dat nog op het niveau
+                      van een lijst met relevante wetten of onderdelen daarvan
+                      (hoofdstukken, afdelingen). Een voorbeeld van zo'n
+                      overzicht vind je <a href="#">hier</a>. In subactiviteit
+                      c. wordt dit verder uitgewerkt.
+                    </p>
+                    <p class="activiteiten-text">
+                      In het voorbeeld van invoering van een nieuwe toeslag gaat
+                      het onder meer om de Algemene wet inkomensafhankelijke
+                      regelingen, de Awb, bepaalde basisregistratiewetten (Brp,
+                      basisregistratie inkomen) en een (bestaande of nieuwe)
+                      materiewet waarin deze toeslag kan worden uitgewerkt.
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li data-filter="#overzicht-maken" data-page="2-werkgebied.html">
+                <p class="activiteiten-item">
+                  <span>c. Een overzicht maken</span
+                  ><img class="arrow" src="../../img/arrow.svg" />
+                </p>
+                <div id="overzicht-maken" class="activiteiten-list-small">
+                  <div data-filter="#overzicht-maken">
+                    <h2 class="activiteiten-title">
+                      c. Maken van een overzicht van aan te passen of te
+                      ontwerpen wetgevingsonderdelen
+                    </h2>
+                    <p class="activiteiten-text">
+                      Indien de taken leiden tot wijziging van bestaande
+                      wetgeving, wordt een overzicht gemaakt van de concrete
+                      bepalingen in de geïnventariseerde wetgeving die aangepast
+                      moeten worden. Hierbij wordt dieper ingezoomd en worden
+                      ook de gedelegeerde regelingen en concrete onderdelen
+                      daaruit geïnventariseerd. Alle mogelijk relevante
+                      onderdelen worden in een tabel bij elkaar gezet. Het is
+                      handig om ook kopjes van artikelen of onderdelen in de
+                      tabel op te nemen, of als die er niet zijn, om zelf een
+                      korte aanduiding van de inhoud toe te voegen.
+                    </p>
+                    <p class="activiteiten-text">
+                      Een voorbeeld van een uitgewerkte tabel vind je
+                      <a href="#">hier</a>.
+                    </p>
+                    <p class="activiteiten-text">
+                      Het is belangrijk om deze stap met het hele team uit te
+                      voeren, omdat collega's uit de uitvoeringspraktijk op
+                      basis van ervaringen met uitvoering van bestaande
+                      regelingen vaak zicht 11 hebben op bepalingen die relevant
+                      zijn, hoewel ze dat op het eerste gezicht niet lijken. Het
+                      is niet altijd mogelijk om al direct een volledig beeld te
+                      krijgen van de relevante bestaande bepalingen of van
+                      geheel nieuwe wetgeving die nodig is om de maatregel vorm
+                      te geven. Dat is niet erg, het is immers een iteratief
+                      proces. Het kan goed zijn dat bij de analyse en validatie
+                      (<a href="#">activiteit 3</a> en
+                      <a href="#">activiteit 4</a>) nog andere bepalingen
+                      opkomen die van belang zijn of dat juist blijkt dat een
+                      regeling of onderdeel toch niet relevant is. Dit kan dan
+                      in de tabel worden verwerkt, zodat steeds een actueel
+                      overzicht voorhanden is.
+                    </p>
+                    <p class="activiteiten-text">
+                      Het lijkt misschien overbodig om voor het opstellen van
+                      wetgeving zo'n gedetailleerd overzicht te maken. Als
+                      wetgevingsjurist weet je immers in het algemeen wel waar
+                      de relevante onderdelen zitten en werk je waarschijnlijk
+                      meer 'organisch'. Voor het goed in kaart brengen van de
+                      uitvoeringsaspecten zijn echter niet alleen de nieuwe
+                      bepalingen die je maakt relevant, maar ook artikelen en
+                      artikelonderdelen die daar direct omheen staan (in
+                      dezelfde wet) of er wat verder vanaf staan (in andere
+                      wetgeving, zie het
+                      <a href="#">voorbeeld</a> over de impliciete relatie
+                      tussen de Vreemdelingenwet en de Awb).
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li
+                data-filter="#conceptregeling-maken"
+                data-page="2-werkgebied.html"
+              >
+                <p class="activiteiten-item">
+                  <span>d. Een conceptregeling maken</span
+                  ><img class="arrow" src="../../img/arrow.svg" />
+                </p>
+                <div id="conceptregeling-maken" class="activiteiten-list-small">
+                  <div data-filter="#conceptregeling-maken">
+                    <h2 class="activiteiten-title">
+                      d. Een conceptregeling maken
+                    </h2>
+                    <p class="activiteiten-text">
+                      Op basis van het resultaat van subactiviteit c. kan
+                      gestart worden met het opstellen van een nieuwe wettelijke
+                      regeling, of met het maken van een wijzigingsregeling. Er
+                      wordt dan puur naar de juridische en wetstechnische
+                      inbedding in het geheel gekeken; het gaat erom een
+                      basistekst te hebben voor gerichte analyse van de
+                      uitvoeringsaspecten in <a href="#">activiteit 3</a>,
+                      structureren en interpreteren.
+                    </p>
+                    <p class="activiteiten-text">
+                      Indien een wijzigingsregeling wordt gemaakt, is het van
+                      belang om de wijzigingen op te nemen in de doorlopende
+                      tekst van de wet zoals deze is opgenomen in wetten.nl.
+                      Daarvoor kan de actuele tekst worden gedownload in Word.
+                      Dit maakt straks de analyse in
+                      <a href="#">activiteit 3</a> gemakkelijker omdat dat
+                      duidelijk maakt hoe de wijzigingen er in de brede context
+                      van de regeling uitzien. Voor de uitvoering is immers niet
+                      alleen de wijziging van belang, maar ook de wijze waarop
+                      deze relateert aan de huidige situatie. Indien een geheel
+                      nieuwe regeling wordt gemaakt kan op de gebruikelijke
+                      wijze worden gewerkt (eventueel met gebruikmaking van
+                      beschikbare Word-sjablonen).
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li
+                data-filter="#planning-aanpassen"
+                data-page="2-werkgebied.html"
+              >
+                <p class="activiteiten-item">
+                  <span>e. Planning aanpassen</span
+                  ><img class="arrow" src="../../img/arrow.svg" />
+                </p>
+                <div id="planning-aanpassen" class="activiteiten-list-small">
+                  <div data-filter="planning-aanpassen">
+                    <h2 class="activiteiten-title">e. De planning aanpassen</h2>
+                    <p class="activiteiten-text">
+                      Het in kaart brengen van de relevante wetgeving en het
+                      maken van een eerste opzet voor de (wijzigings)regeling
+                      draagt bij aan het inzicht in de scope en omvang van de te
+                      analyseren wetgeving. Op basis daarvan kan in samenspraak
+                      met het team de planning worden aangescherpt.
+                    </p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="container">
+        <h3>Snel naar</h3>
+        <ul>
+          <li>
+            <a href="#"
+              ><img src="../../../img/terug.svg" />Activiteitenschema</a
+            >
+          </li>
+          <li>
+            <a href="#"><img src="../../../img/terug.svg" />Analyseschema</a>
+          </li>
+          <li>
+            <a href="#"><img src="../../../img/terug.svg" />Voorbeelden</a>
+          </li>
+          <li>
+            <a href="#"><img src="../../../img/terug.svg" />Deelnemers</a>
+          </li>
+          <li>
+            <a href="#"
+              ><img src="../../../img/terug.svg" />Tips &#38; Tricks</a
+            >
+          </li>
+          <li>
+            <a href="#"><img src="../../../img/terug.svg" />Literatuur</a>
+          </li>
+          <li>
+            <a href="#"><img src="../../../img/terug.svg" />Contact</a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
