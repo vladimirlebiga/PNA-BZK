@@ -115,7 +115,8 @@ function handleClick(event, stepName, pageName) {
     const elementId = target.dataset.filter;
     sessionStorage.setItem(`${stepName}.html`, elementId);
     window.location.assign(
-      `https://vladimirlebiga.github.io/PNA-BZK/content/activiteitenschema/${pageName}`
+      `
+      ${window.location.href.split("/").slice(0, -1).join("/")}/${pageName}`
     );
   }
 }
