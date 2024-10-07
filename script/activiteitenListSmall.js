@@ -109,91 +109,91 @@
 
 /////////////////////////////////////////////////////////////////
 
-// function handleClick(event, stepName, pageName) {
-//   const target = event.target.closest("div");
-//   if (target && target.dataset.filter) {
-//     const elementId = target.dataset.filter;
-//     sessionStorage.setItem(`${stepName}.html`, elementId);
-//     window.location.assign(`/content/activiteitenschema/${pageName}`);
-//   }
-// }
-
-// // Add event listeners with bound parameters
-// voorbereiding.addEventListener("click", function (event) {
-//   handleClick(event, "1-voorbereiding", "1-voorbereiding.html");
-// });
-// werkgebied.addEventListener("click", function (event) {
-//   handleClick(event, "2-werkgebied", "2-werkgebied.html");
-// });
-// bronnen.addEventListener("click", function (event) {
-//   handleClick(event, "3-bronnen", "3-bronnen.html");
-// });
-// valideren.addEventListener("click", function (event) {
-//   handleClick(event, "4-valideren", "4-valideren.html");
-// });
-// modelleren.addEventListener("click", function (event) {
-//   handleClick(event, "5-modelleren", "5-modelleren.html");
-// });
-// simuleren.addEventListener("click", function (event) {
-//   handleClick(event, "6-simuleren", "6-simuleren.html");
-// });
-// bijstellen.addEventListener("click", function (event) {
-//   handleClick(event, "7-bijstellen", "7-bijstellen.html");
-// });
-
-///////////////////////////////////////////////////////////////////
-
-// Define a function to handle navigation and set sessionStorage
 function handleClick(event, stepName, pageName) {
   const target = event.target.closest("div");
   if (target && target.dataset.filter) {
     const elementId = target.dataset.filter;
-    // Save the filter to sessionStorage for use on the target page
     sessionStorage.setItem(`${stepName}.html`, elementId);
-    // Adjust the path to include the repository name if necessary
     window.location.assign(`/PNA-BZK/content/activiteitenschema/${pageName}`);
   }
 }
 
-// Add event listeners to each activity step if they exist
-if (voorbereiding) {
-  voorbereiding.addEventListener("click", function (event) {
-    handleClick(event, "1-voorbereiding", "1-voorbereiding.html");
-  });
-}
+// Add event listeners with bound parameters
+voorbereiding.addEventListener("click", function (event) {
+  handleClick(event, "1-voorbereiding", "1-voorbereiding.html");
+});
+werkgebied.addEventListener("click", function (event) {
+  handleClick(event, "2-werkgebied", "2-werkgebied.html");
+});
+bronnen.addEventListener("click", function (event) {
+  handleClick(event, "3-bronnen", "3-bronnen.html");
+});
+valideren.addEventListener("click", function (event) {
+  handleClick(event, "4-valideren", "4-valideren.html");
+});
+modelleren.addEventListener("click", function (event) {
+  handleClick(event, "5-modelleren", "5-modelleren.html");
+});
+simuleren.addEventListener("click", function (event) {
+  handleClick(event, "6-simuleren", "6-simuleren.html");
+});
+bijstellen.addEventListener("click", function (event) {
+  handleClick(event, "7-bijstellen", "7-bijstellen.html");
+});
 
-if (werkgebied) {
-  werkgebied.addEventListener("click", function (event) {
-    handleClick(event, "2-werkgebied", "2-werkgebied.html");
-  });
-}
+///////////////////////////////////////////////////////////////////
 
-if (bronnen) {
-  bronnen.addEventListener("click", function (event) {
-    handleClick(event, "3-bronnen", "3-bronnen.html");
-  });
-}
+// Define a function to handle navigation and set sessionStorage
+// function handleClick(event, stepName, pageName) {
+//   const target = event.target.closest("div");
+//   if (target && target.dataset.filter) {
+//     const elementId = target.dataset.filter;
+//     // Save the filter to sessionStorage for use on the target page
+//     sessionStorage.setItem(`${stepName}.html`, elementId);
+//     // Adjust the path to include the repository name if necessary
+//     window.location.assign(`/PNA-BZK/content/activiteitenschema/${pageName}`);
+//   }
+// }
 
-if (valideren) {
-  valideren.addEventListener("click", function (event) {
-    handleClick(event, "4-valideren", "4-valideren.html");
-  });
-}
+// // Add event listeners to each activity step if they exist
+// if (voorbereiding) {
+//   voorbereiding.addEventListener("click", function (event) {
+//     handleClick(event, "1-voorbereiding", "1-voorbereiding.html");
+//   });
+// }
 
-if (modelleren) {
-  modelleren.addEventListener("click", function (event) {
-    handleClick(event, "5-modelleren", "5-modelleren.html");
-  });
-}
+// if (werkgebied) {
+//   werkgebied.addEventListener("click", function (event) {
+//     handleClick(event, "2-werkgebied", "2-werkgebied.html");
+//   });
+// }
 
-if (simuleren) {
-  simuleren.addEventListener("click", function (event) {
-    handleClick(event, "6-simuleren", "6-simuleren.html");
-  });
-}
+// if (bronnen) {
+//   bronnen.addEventListener("click", function (event) {
+//     handleClick(event, "3-bronnen", "3-bronnen.html");
+//   });
+// }
 
-if (bijstellen) {
-  bijstellen.addEventListener("click", function (event) {
-    handleClick(event, "7-bijstellen", "7-bijstellen.html");
-  });
-}
+// if (valideren) {
+//   valideren.addEventListener("click", function (event) {
+//     handleClick(event, "4-valideren", "4-valideren.html");
+//   });
+// }
+
+// if (modelleren) {
+//   modelleren.addEventListener("click", function (event) {
+//     handleClick(event, "5-modelleren", "5-modelleren.html");
+//   });
+// }
+
+// if (simuleren) {
+//   simuleren.addEventListener("click", function (event) {
+//     handleClick(event, "6-simuleren", "6-simuleren.html");
+//   });
+// }
+
+// if (bijstellen) {
+//   bijstellen.addEventListener("click", function (event) {
+//     handleClick(event, "7-bijstellen", "7-bijstellen.html");
+//   });
+// }
