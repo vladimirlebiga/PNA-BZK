@@ -151,7 +151,7 @@ function handleClick(event, stepName, pageName) {
     // Save the filter to sessionStorage for use on the target page
     sessionStorage.setItem(`${stepName}.html`, elementId);
     // Adjust the path to include the repository name if necessary
-    window.location.assign(`/content/activiteitenschema/${pageName}`);
+    window.location.assign(`/PNA-BZK/content/activiteitenschema/${pageName}`);
   }
 }
 
